@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweeder</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+
+		.post-image {
+			height: 92px;
+			width: 140px;
+			border: 10px solid #e6d1f9;
+		}
+
+		#nav {
+			padding: 50px;
+		}
+
+
+		th {
+			text-align: center;
+			padding-right: 100px;
+		}
+
+		#center {
+			padding-left: 40px;
+			padding-top: 10px;
+			padding-right: 40px; 
+		}
+
+		#left-sidebar {
+			padding-top: 20px;
+			padding-left: 40px;
+
+		}
+
+		#right-sidebar {
+			padding-left: 0px;
+			padding-top: 20px;
+		}
+
+		.post {
+			background-color: #e6d1f9;
+			margin-top: 10px;
+			padding-top: 10px;
+
+		}
+
+		.footer-list {
+			list-style: none;
+			margin-left: 30px;
+			padding: 0px;
+			margin-top: 10px;
+		}
+
+		.footer-item {
+			display: inline-block;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+			padding-left: 10px;
+
+		}
+		.nav {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-li {
+			display: inline-block;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+			padding-left: 10px;
+		}
+
+		.navbar-li:hover {
+			color:#b776f2;
+		}
+
+		#navbar {
+			background-color: #c0f9d3;
+		}
+
+		#maintitle {
+			font-family: "American Typewriter";
+			font-size: 23px;
+			padding-right: 55px;
+
+		}
+
+		body {
+			font-family: "Avenir Next";
+		}
+
+		.right-sidebar-items:hover {
+			color:#71fcbd;
+		}
+
+		.first-item {
+			padding-top: 20px;
+		}
+	</style>
+
+
+</head>
+<body>
+	<div class="container-fluid">
+		</div>
+		<div id="navbar">	
+			<ul class=nav>
+				<li class="navbar-li" id="maintitle">Tweeder</li>
+				<li class="navbar-li">Trending</li>
+				<li class="navbar-li">Explore</li>
+				<li class="navbar-li">Search:_______</li>
+				<li class="navbar-li">Log out</li>
+			</ul>	
+		</div>
+
+		<div id="main-content" class="row">
+			<div id="left-sidebar" class="col-2">
+				<img class="post-image" src="https://scstylecaster.files.wordpress.com/2015/04/natural-ways-to-lighten-teeth.jpg?w=1024&h=707">
+				
+				<p class="first-item">The Tooth Fairy @realtoothfairy</p>
+				<p>2.3M followers</p>
+				<p>200K following</p>
+				<p>I can't have kids following me. It'll spoil their childhood.</p>
+			</div>
+			<div id="center" class="col-8">
+				<div class="post row">
+					<div class="col-7 text-side">
+						<p>The Tooth Fairy @realtoothfairy</p>
+						<p>Had some trouble with tonight's pick-up. Please tell your children not to grip their pillows so tightly.</p>
+						<p>1:00 am, May 1st</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-7 text-side">
+						<p>The Tooth Fairy @realtoothfairy</p>
+						<p>6 yr old girl once woke up just as my fist closed around her incisor...#awk</p>
+						<p>10:00 pm, June 12th</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-7 text-side">
+						<p>The Tooth Fairy @realtoothfairy</p>
+						<p>Fun fact of which most people are unaware: tooth fairies are nocturnal! #duh</p>
+						<p>4:00 am, September 21st
+					</div>
+				</div>
+			</div>
+			<div id="right-sidebar" class="col-2">
+				<p class="right-sidebar-items">My feed</p>
+				<p class="right-sidebar-items">My followers</p>
+				<p class="right-sidebar-items">My profile</p>
+				<p class="right-sidebar-items">My settings</p>
+			</div>
+		</div>
+
+		<div id="footer" class="row">
+			<ul class="footer-list">
+				<li class="footer-item">Tweeder, Inc.</li>
+				<li class="footer-item">Conditions of Use</li>
+				<li class="footer-item">Privacy Notice</li>
+			</ul>
+
+		</div>
+	</div>	
+</body>
+</html>
